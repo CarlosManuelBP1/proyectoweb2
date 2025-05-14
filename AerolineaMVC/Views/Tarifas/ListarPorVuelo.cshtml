@@ -1,0 +1,29 @@
+﻿@model List<AerolineaMVC.Models.Tarifa>
+
+@{
+    ViewData["Title"] = "Tarifas Disponibles";
+}
+
+<h2>Tarifas para el vuelo @ViewBag.VueloId</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Clase</th>
+            <th>Precio</th>
+            <th>Acción</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tarifa in Model)
+        {
+            <tr>
+                <td>@tarifa.Clase</td>
+                <td>@tarifa.Precio.ToString("C")</td>
+                <td>
+                    <a asp-controller="Reservas" asp-action="Crear" asp-route-tarifaId="@tarifa.Id" class="btn btn-primary btn-sm">Reservar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

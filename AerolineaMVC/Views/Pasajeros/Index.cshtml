@@ -1,0 +1,25 @@
+﻿@model List<Pasajero>
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Documento</th>
+        <th>Edad</th>
+        <th>Contacto</th>
+        <th>Acciones</th>
+    </tr>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Nombre</td>
+            <td>@p.Documento</td>
+            <td>@p.Edad</td>
+            <td>@p.ContactoEmergenciaNombre</td>
+            <td>@p.ContactoEmergenciaCorreo</td>
+            <td>@p.ContactoEmergenciaCelular</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@p.Id">Editar</a> |
+                <a asp-action="Delete" asp-route-id="@p.Id">Eliminar</a>
+            </td>
+        </tr>
+    }
+</table>

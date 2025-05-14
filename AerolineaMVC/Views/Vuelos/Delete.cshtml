@@ -1,0 +1,32 @@
+﻿@model AerolineaMVC.Models.Vuelo
+
+@{
+    ViewData["Title"] = "Eliminar Vuelo";
+}
+
+<h2>¿Seguro que deseas eliminar este vuelo?</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Origen</th>
+        <td>@Model.Origen</td>
+    </tr>
+    <tr>
+        <th>Destino</th>
+        <td>@Model.Destino</td>
+    </tr>
+    <tr>
+        <th>Fecha</th>
+        <td>@Model.Fecha.ToString("yyyy-MM-dd")</td>
+    </tr>
+    <tr>
+        <th>Disponibilidad</th>
+        <td>@(Model.Disponibilidad ? "Disponible" : "No Disponible")</td>
+    </tr>
+</table>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

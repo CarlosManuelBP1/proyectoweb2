@@ -1,0 +1,43 @@
+﻿@model AerolineaMVC.Models.Tarifa
+
+@{
+    ViewData["Title"] = "Editar Tarifa";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Tarifa</h4>
+<hr />
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label asp-for="Id" class="control-label"></label>
+        <input asp-for="Id" class="form-control" readonly />
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Tipo" class="control-label"></label>
+        <input asp-for="Tipo" class="form-control" />
+        <span asp-validation-for="Tipo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Precio" class="control-label"></label>
+        <input asp-for="Precio" class="form-control" type="number" step="any" lang="en" />
+        <span asp-validation-for="Precio" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="VueloId" class="control-label"></label>
+        <select asp-for="VueloId" class="form-control" asp-items="ViewBag.VueloId"></select>
+        <span asp-validation-for="VueloId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Volver</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

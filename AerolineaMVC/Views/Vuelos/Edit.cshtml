@@ -1,0 +1,41 @@
+﻿@model AerolineaMVC.Models.Vuelo
+
+@{
+    ViewData["Title"] = "Editar Vuelo";
+}
+
+<h2>Editar Vuelo</h2>
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken() 
+
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label for="Origen" class="form-label">Origen</label>
+        <input type="text" class="form-control" asp-for="Origen" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="Destino" class="form-label">Destino</label>
+        <input type="text" class="form-control" asp-for="Destino" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="Fecha" class="form-label">Fecha</label>
+        <input type="date" class="form-control" asp-for="Fecha" value="@Model.Fecha.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" asp-for="Disponibilidad" />
+        <label class="form-check-label" asp-for="Disponibilidad">Disponible</label>
+    </div>
+
+    <div class="mb-3">
+        <label for="CantidadAsientos" class="form-label">Cantidad de Asientos</label>
+        <input type="number" class="form-control" asp-for="CantidadAsientos" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

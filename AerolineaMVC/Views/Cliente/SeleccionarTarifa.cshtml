@@ -1,0 +1,26 @@
+﻿@model AerolineaMVC.Models.Tarifa
+
+@{
+    ViewData["Title"] = "Seleccionar Tarifa";
+}
+
+<h2>Seleccionar Tarifa</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Tarifa @Model.Tipo</h4>
+        <p><strong>Clase:</strong> @Model.Clase</p>
+        <p><strong>Precio:</strong> $@Model.Precio</p>
+        <p><strong>Vuelo:</strong> @Model.Vuelo.Origen - @Model.Vuelo.Destino | @Model.Vuelo.Fecha.ToShortDateString()</p>
+
+        <form asp-action="ReservarTarifa" method="post">
+            <input type="hidden" name="tarifaId" value="@Model.Id" />
+            
+            <a asp-controller="Cliente" asp-action="ConfirmarReserva" asp-route-id="@Model.Id" class="btn btn-success">
+                Proceder a Reserva
+            </a>
+            
+
+        </form>
+    </div>
+</div>

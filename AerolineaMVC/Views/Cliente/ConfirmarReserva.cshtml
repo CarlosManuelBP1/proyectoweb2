@@ -1,0 +1,120 @@
+﻿@model AerolineaMVC.Models.ViewModels.ReservaViewModel
+
+@{
+    ViewData["Title"] = "Confirmar Reserva";
+    var vuelo = Model.Vuelo;
+    var tarifa = Model.Tarifa;
+}
+
+<h2>Confirmar Reserva</h2>
+
+<h4>Detalles del Vuelo</h4>
+<ul>
+    <li><strong>Origen:</strong> @vuelo.Origen</li>
+    <li><strong>Destino:</strong> @vuelo.Destino</li>
+    <li><strong>Fecha:</strong> @vuelo.Fecha.ToShortDateString()</li>
+    <li><strong>Tarifa:</strong> @tarifa.Tipo - @tarifa.Clase - $@tarifa.Precio</li>
+</ul>
+
+<h4>Datos del Cliente</h4>
+<div class="form-group">
+    <label>Nombre del Cliente:</label>
+    <input type="text" name="NombreCliente" class="form-control" required />
+</div>
+<div class="form-group">
+    <label>Correo del Cliente:</label>
+    <input type="email" name="CorreoCliente" class="form-control" required />
+</div>
+<hr />
+<form asp-action="ConfirmarReserva" method="post">
+    @Html.AntiForgeryToken()
+
+    <input type="hidden" name="TarifaId" value="@tarifa.Id" />
+    <input type="hidden" name="VueloId" value="@vuelo.Id" />
+
+    <div id="pasajeros-container" class="row"></div>
+
+    <div class="row mt-3">
+
+        <div class="col-3"> 
+            <button type="button" class="btn btn-secondary" onclick="agregarPasajero()">Agregar Pasajero</button>
+        </div>
+        <div class="col-3">
+            <button type="submit" class="btn btn-primary">Confirmar Reserva</button>
+        </div>    
+    </div>
+</form>
+
+@section Scripts {
+
+
+    <script>
+        let index = 0;
+
+        function agregarPasajero() {
+            const container = document.getElementById("pasajeros-container");
+
+            const html = `
+                        <div class="pasajero-form mb-4 p-3 border rounded">
+                            <h5>Pasajero ${index + 1}</h5>
+                            <input type="hidden" name="Pasajeros.index" value="${index}" />
+
+                            <div class="form-group">
+                                <label>Nombre:</label>
+                                        <input name="Pasajeros[${index}].Nombre" id="miCheckbox1" class="form-control" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Documento:</label>
+                                <input name="Pasajeros[${index}].Documento" class="form-control" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Edad:</label>
+                                <input type="number" name="Pasajeros[${index}].Edad" class="form-control" required />
+                            </div>
+
+                            <h6>Contacto de Emergencia</h6>
+                            <div class="form-group">
+                                <label>Nombre:</label>
+                                <input name="Pasajeros[${index}].ContactoEmergenciaNombre" class="form-control" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Celular:</label>
+                                <input name="Pasajeros[${index}].ContactoEmergenciaCelular" class="form-control" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Correo:</label>
+                                <input type="email" name="Pasajeros[${index}].ContactoEmergenciaCorreo" class="form-control" required />
+                            </div>
+
+                            <h6>Servicios Extra</h6>
+                             <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="Pasajeros[${index}].Maleta" value="true" />
+                            <label class="form-check-label">Maleta</label>
+                            </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="Pasajeros[${index}].Comida" value="true" />
+                            <label class="form-check-label">Comida</label>
+                            </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="Pasajeros[${index}].Mascota" value="true" />
+                            <label class="form-check-label">Mascota</label>
+                            </div>
+
+                        </div>
+                    `;
+
+            container.insertAdjacentHTML("beforeend", html);
+            index++;
+        }
+
+      
+        // Opcional: agrega 1 pasajero al cargar la vista
+        window.onload = function () {
+            agregarPasajero();
+        };
+
+      
+    </script>
+
+   
+}

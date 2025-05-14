@@ -1,0 +1,35 @@
+﻿@model Pasajero
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" /> <div>
+        <label>Nombre</label>
+        <input asp-for="Nombre" />
+    </div>
+    <div>
+        <label>Documento</label>
+        <input asp-for="Documento" />
+    </div>
+    <div>
+        <label>Edad</label>
+        <input asp-for="Edad" />
+    </div>
+    <div>
+        <label>Nombre del contacto de emergencia</label>
+        <input asp-for="ContactoEmergenciaNombre" />
+    </div>
+    <div>
+        <label>Correo del contacto de emergencia</label>
+        <input asp-for="ContactoEmergenciaCorreo" />
+    </div>
+    <div>
+        <label>Celular del contacto de emergencia</label>
+        <input asp-for="ContactoEmergenciaCelular" />
+    </div>
+
+    <div>
+        <label>Reserva</label>
+        <select asp-for="ReservaId" asp-items="ViewBag.ReservaId"></select>
+    </div>
+    <button type="submit">Guardar Cambios</button>
+    <a asp-action="Index">Cancelar</a>
+</form>

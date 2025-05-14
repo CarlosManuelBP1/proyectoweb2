@@ -1,0 +1,43 @@
+﻿@model AerolineaMVC.Models.Vuelo
+
+@{
+    ViewData["Title"] = "Tarifas disponibles";
+}
+
+<h2>Tarifas del vuelo @Model.Origen → @Model.Destino</h2>
+<p>Fecha: @Model.Fecha.ToString("dd/MM/yyyy")</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Clase</th>
+            <th>Tipo</th>
+            <th>Precio</th>
+            <th>Acción</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Tarifas != null && Model.Tarifas.Any())
+        {
+            foreach (var tarifa in Model.Tarifas)
+            {
+                <tr>
+                    <td>@tarifa.Clase</td>
+                    <td>@tarifa.Tipo</td>
+                    <td>@tarifa.Precio.ToString("C")</td>
+                    <td>
+                        <a asp-action="SeleccionarTarifa" asp-controller="Cliente" asp-route-id="@tarifa.Id" class="btn btn-sm btn-outline-success">
+                            Seleccionar
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">No hay tarifas disponibles para este vuelo.</td>
+            </tr>
+        }
+    </tbody>
+</table>

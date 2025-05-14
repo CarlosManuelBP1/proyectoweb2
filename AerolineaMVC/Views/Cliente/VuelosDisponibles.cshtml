@@ -1,0 +1,51 @@
+﻿@model List<AerolineaMVC.Models.Vuelo>
+
+@{
+    ViewData["Title"] = "Vuelos Disponibles";
+}
+
+<h2>Vuelos Disponibles</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Origen</th>
+            <th>Destino</th>
+            <th>Fecha</th>
+            <th>Asientos</th>
+            <th>Disponibilidad</th>
+            <th>Tarifas</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vuelo in Model)
+        {
+            <tr>
+                <td>@vuelo.Origen</td>
+                <td>@vuelo.Destino</td>
+                <td>@vuelo.Fecha.ToShortDateString()</td>
+                <td>@vuelo.CantidadAsientos</td>
+                <td>
+                    @if (vuelo.Disponibilidad)
+                    {
+                        <span class="text-success">Disponible</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Agotado</span>
+                    }
+                </td>
+                <td>
+                    @if (vuelo.Disponibilidad)
+                    {
+                         <a asp-action="VerTarifas" asp-route-id="@vuelo.Id" class="btn btn-outline-primary">Ver Tarifas</a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">No disponible</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

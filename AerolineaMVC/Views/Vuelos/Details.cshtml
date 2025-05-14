@@ -1,0 +1,29 @@
+﻿@model AerolineaMVC.Models.Vuelo
+
+@{
+    ViewData["Title"] = "Detalles del Vuelo";
+}
+
+<h2>Detalles del Vuelo</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Origen</th>
+        <td>@Model.Origen</td>
+    </tr>
+    <tr>
+        <th>Destino</th>
+        <td>@Model.Destino</td>
+    </tr>
+    <tr>
+        <th>Fecha</th>
+        <td>@Model.Fecha.ToString("yyyy-MM-dd")</td>
+    </tr>
+    <tr>
+        <th>Disponibilidad</th>
+        <td>@(Model.Disponibilidad ? "Disponible" : "No Disponible")</td>
+    </tr>
+</table>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-success">Editar</a>
+<a asp-action="Index" class="btn btn-secondary">Volver</a>

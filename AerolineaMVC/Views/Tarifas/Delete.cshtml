@@ -1,0 +1,18 @@
+﻿@model AerolineaMVC.Models.Tarifa
+
+@{
+    ViewData["Title"] = "Eliminar Tarifa";
+}
+
+<h2>¿Está seguro de que desea eliminar esta tarifa?</h2>
+<div class="alert alert-danger">
+    <p><strong>Tipo:</strong> @Model.Tipo</p>
+    <p><strong>Precio:</strong> $@Model.Precio</p>
+    <p><strong>Vuelo:</strong> @Model.Vuelo?.Destino</p>
+    <p><strong>Asientos disponibles:</strong> @Model.Vuelo?.AsientosDisponibles</p>
+</div>
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

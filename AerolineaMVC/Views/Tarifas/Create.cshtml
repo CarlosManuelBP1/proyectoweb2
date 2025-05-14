@@ -1,0 +1,66 @@
+﻿@model AerolineaMVC.Models.Tarifa
+
+@{
+    ViewData["Title"] = "Crear Tarifa";
+}
+
+<h1>Crear Tarifa</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Tipo" class="control-label"></label>
+        <input asp-for="Tipo" class="form-control" />
+        <span asp-validation-for="Tipo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Clase" class="control-label"></label>
+        <input asp-for="Clase" class="form-control" />
+        <span asp-validation-for="Clase" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Precio" class="control-label"></label>
+        <input asp-for="Precio" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="Precio" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="VueloId" class="control-label"></label>
+        <select asp-for="VueloId" class="form-control" asp-items="ViewBag.VueloId">
+            <option value="">Seleccione un vuelo</option>
+        </select>
+        <span asp-validation-for="VueloId" class="text-danger"></span>
+    </div>
+
+    @if (ViewBag.VueloId == null || !((SelectList)ViewBag.VueloId).Any())
+    {
+        <div class="alert alert-warning">No hay vuelos disponibles.</div>
+    }
+
+    <div class="form-group">
+        <label for="AsientosDisponibles">Asientos Disponibles</label>
+        <input id="AsientosDisponibles" class="form-control" type="text" readonly />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Crear</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.getElementById("VueloId").addEventListener("change", function () {
+            var vueloId = this.value;
+            if (vueloId) {
+                fetch(`/Vuelos/GetAsientosDisponibles?id=${vueloId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("AsientosDisponibles").value = data.asientosDisponibles;
+                    });
+            } else {
+                document.getElementById("AsientosDisponibles").value = "";
+            }
+        });
+    </script>
+}

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<AerolineaMVC.Models.Vuelo>  
+
+@{
+    ViewData["Title"] = "Vuelos";
+}
+
+<h1>Vuelos</h1>
+<a asp-action="Create" class="btn btn-primary mb-3"> Crear Nuevo Vuelo</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Origen</th>
+            <th>Destino</th>
+            <th>Fecha</th>
+            <th>Disponibilidad</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vuelo in Model)
+        {
+            <tr>
+                <td>@vuelo.Origen</td>
+                <td>@vuelo.Destino</td>
+                <td>@vuelo.Fecha.ToString("dd/MM/yyyy")</td>
+                <td>@vuelo.Disponibilidad</td>
+                <td>
+                    <a href="@Url.Action("Details", new { id = vuelo.Id })">Ver detalles</a>
+                    |
+                    <a href="@Url.Action("Edit", new { id = vuelo.Id })">Editar</a>
+                    |
+                    <a href="@Url.Action("Delete", new { id = vuelo.Id })">Eliminar</a>
+                </td>
+            </tr>
+        }
+      
+    </tbody>
+</table>
