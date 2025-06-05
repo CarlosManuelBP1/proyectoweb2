@@ -11,7 +11,8 @@
         <h4 class="card-title">Tarifa @Model.Tipo</h4>
         <p><strong>Clase:</strong> @Model.Clase</p>
         <p><strong>Precio:</strong> $@Model.Precio</p>
-        <p><strong>Vuelo:</strong> @Model.Vuelo.Origen - @Model.Vuelo.Destino | @Model.Vuelo.Fecha.ToShortDateString()</p>
+        <p><strong>Vuelo:</strong> @(Model.Vuelo != null ? $"{Model.Vuelo.Origen} - {Model.Vuelo.Destino} | {Model.Vuelo.Fecha.ToShortDateString()}" : "Información del vuelo no disponible")</p>
+
 
         <form asp-action="ReservarTarifa" method="post">
             <input type="hidden" name="tarifaId" value="@Model.Id" />

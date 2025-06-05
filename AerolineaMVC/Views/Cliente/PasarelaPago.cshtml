@@ -1,0 +1,340 @@
+﻿@model AerolineaMVC.Models.ViewModels.ReservaViewModel
+
+@{
+    ViewData["Title"] = "Pasarela de Pago";
+    var vuelo = Model?.Vuelo;
+    var tarifa = Model?.Tarifa;
+    var anioActual = DateTime.Now.Year;
+
+    int cantidadPasajeros = Model?.Pasajeros?.Count ?? 0;
+    decimal tarifaBaseTotal = tarifa != null ? tarifa.Precio * cantidadPasajeros : 0;
+    int totalMaletas = Model?.Pasajeros.Count(p => p.Maleta) ?? 0;
+    int totalComidas = Model?.Pasajeros.Count(p => p.Comida) ?? 0;
+    int totalMascotas = Model?.Pasajeros.Count(p => p.Mascota) ?? 0;
+
+    decimal totalExtras = (totalMaletas * 150000) + (totalComidas * 100000) + (totalMascotas * 200000);
+
+    decimal descuento = 0;
+    if (cantidadPasajeros == 2)
+    {
+        descuento = 0.10m;
+    }
+    else if (cantidadPasajeros == 3)
+    {
+        descuento = 0.15m;
+    }
+    else if (cantidadPasajeros >= 4)
+    {
+        descuento = 0.20m;
+    }
+
+    decimal subtotal = tarifaBaseTotal + totalExtras;
+    decimal montoDescuento = subtotal * descuento;
+    decimal total = subtotal - montoDescuento;
+}
+<h2>Pasarela de Pago</h2>
+
+@if (Model == null || vuelo == null || tarifa == null)
+{
+    <div class="alert alert-danger">
+        Ha ocurrido un error cargando los datos de la reserva. Por favor, regrese e intente de nuevo.
+    </div>
+}
+else
+{
+    <h4>Resumen de Reserva</h4>
+    <hr />
+    <p><strong>Cliente:</strong> @Model.NombreCliente (@Model.CorreoCliente)</p>
+    <p><strong>Vuelo:</strong> @vuelo.Origen - @vuelo.Destino</p>
+    <p><strong>Tarifa base:</strong> $@tarifa.Precio.ToString("N0")</p>
+    <p><strong>Cantidad de pasajeros:</strong> @cantidadPasajeros</p>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Pasajero</th>
+                <th>Asiento </th>
+                <th>Maleta (+$150000)</th>
+                <th>Comida (+$100000)</th>
+                <th>Mascota (+$200000)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Pasajeros.Count; i++)
+            {
+                var p = Model.Pasajeros[i];
+                <tr>
+                    <td>@p.Nombre</td>
+                    <td>@p.Asiento </td>
+                    <td>@(p.Maleta ? "Sí" : "No")</td>
+                    <td>@(p.Comida ? "Sí" : "No")</td>
+                    <td>@(p.Mascota ? "Sí" : "No")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h4>Resumen de Pago</h4>
+    <ul>
+        <li>Tarifa base (@cantidadPasajeros pasajero(s)): $@tarifaBaseTotal.ToString("N0")</li>
+        <li>
+            Extras por pasajeros:
+            <ul>
+                <li>Maletas: $@((totalMaletas * 150000).ToString("N0"))</li>
+                <li>Comidas: $@((totalComidas * 100000).ToString("N0"))</li>
+                <li>Mascotas: $@((totalMascotas * 200000).ToString("N0"))</li>
+            </ul>
+        </li>
+        @if (descuento > 0)
+        {
+            <li style="color: green;">
+                <strong>Descuento aplicado (@(descuento * 100)%): -$@montoDescuento.ToString("N0")</strong>
+            </li>
+        }
+        <h4>Total a pagar: <strong style="color: green;">$@total.ToString("N0")</strong></h4>
+    </ul>
+    <div>
+        <p>Subtotal: $@Model.Subtotal.ToString("N0")</p>
+        <p>Descuento: @Model.TextoDescuento</p>
+        <h4>Total a pagar: $@Model.TotalFinal.ToString("N0")</h4>
+    </div>
+
+
+    <form asp-action="ProcesarPago" method="post">
+        @* Datos básicos *@
+        <input type="hidden" name="TarifaId" value="@Model.TarifaId" />
+        <input type="hidden" name="NombreCliente" value="@Model.NombreCliente" />
+        <input type="hidden" name="CorreoCliente" value="@Model.CorreoCliente" />
+        <input type="hidden" name="VueloId" value="@Model.VueloId" />
+        <input type="hidden" name="PrecioTarifa" value="@Model.PrecioTarifa" />
+
+        @* Datos de pasajeros *@
+        @for (int i = 0; i < Model.Pasajeros.Count; i++)
+        {
+            var p = Model.Pasajeros[i];
+            <input type="hidden" name="Pasajeros[@i].Nombre" value="@p.Nombre" />
+            <input type="hidden" name="Pasajeros[@i].Maleta" value="@p.Maleta" />
+            <input type="hidden" name="Pasajeros[@i].Comida" value="@p.Comida" />
+            <input type="hidden" name="Pasajeros[@i].Mascota" value="@p.Mascota" />
+        }
+
+        <div class="mt-3">
+            <label>Método de pago:</label><br />
+            <input type="radio" id="tarjeta" name="metodoPago" value="Tarjeta" checked />
+            <label for="tarjeta">Tarjeta de Crédito/Débito</label><br />
+            <input type="radio" id="paypal" name="metodoPago" value="PayPal" />
+            <label for="paypal">PayPal</label>
+        </div>
+
+        <div id="tarjetaInfo" class="mt-2">
+            <label for="tipoTarjeta">Tipo de Tarjeta:</label>
+            <select name="tipoTarjeta" class="form-control" required>
+                <option value="">Seleccione</option>
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+            </select>
+
+            <label for="numeroTarjeta">Número de Tarjeta:</label>
+            <input type="text" name="numeroTarjeta" class="form-control" maxlength="16" pattern="\d{16}" required />
+
+            <label for="cvv">CVV:</label>
+            <input type="password" name="cvv" class="form-control" maxlength="3" pattern="\d{3}" required />
+
+            <label for="mesVencimiento">Mes de vencimiento:</label>
+            <select name="mesVencimiento" class="form-control" required>
+                @for (int i = 1; i <= 12; i++)
+                {
+                    <option value="@i">@i.ToString("D2")</option>
+                }
+            </select>
+
+            <label for="anioVencimiento">Año de vencimiento:</label>
+            <select name="anioVencimiento" class="form-control" required>
+                @for (int a = anioActual; a <= anioActual + 10; a++)
+                {
+                    <option value="@a">@a</option>
+                }
+            </select>
+        </div>
+
+        <div id="paypalInfo" class="mt-3" style="display: none;">
+            <label>Correo de PayPal:</label>
+            <input type="email" name="paypalCorreo" class="form-control" placeholder="usuario@paypal.com" />
+        </div>
+
+        <h3>Seleccionar Asientos</h3>
+        <p>Haz clic en un asiento para asignarlo a cada pasajero. Verde = Disponible, Azul = Seleccionado</p>
+
+        <div id="seatmap" class="mb-4">
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr>
+                        <th></th>
+                        @for (char col = 'A'; col <= 'F'; col++)
+                        {
+                            <th>@col</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int row = 1; row <= 10; row++)
+                    {
+                        <tr>
+                            <td><strong>@row</strong></td>
+                            @for (char col = 'A'; col <= 'F'; col++)
+                            {
+                                var seat = $"{row}{col}";
+                                var claseBtn = Model.Pasajeros.Any(p => p.Asiento == seat) ? "btn-primary" : "btn-success";
+                                <td>
+                                    <button type="button" class="btn btn-sm @claseBtn seat-btn" data-seat="@seat">@seat</button>
+                                </td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        @for (int i = 0; i < Model.Pasajeros.Count; i++)
+        {
+            <div class="mb-3">
+                <p><strong>Pasajero @(@i + 1):</strong> @Model.Pasajeros[i].Nombre</p>
+                <input type="hidden" name="Pasajeros[@i].Asiento" class="input-asiento" data-index="@i" />
+                <span class="asiento-asignado text-info" id="asiento-pasajero-@i">Asiento no asignado</span>
+            </div>
+        }
+
+        <h4>Resumen de Pago</h4>
+        <ul>
+            <li>Tarifa base (@cantidadPasajeros pasajero(s)): $@tarifaBaseTotal.ToString("N0")</li>
+            <li>
+                Extras por pasajeros:
+                <ul>
+                    <li>Maletas: $@((totalMaletas * 150000).ToString("N0"))</li>
+                    <li>Comidas: $@((totalComidas * 100000).ToString("N0"))</li>
+                    <li>Mascotas: $@((totalMascotas * 200000).ToString("N0"))</li>
+                </ul>
+            </li>
+            @if (descuento > 0)
+            {
+                <li style="color: green;">
+                    <strong>Descuento aplicado (@(descuento * 100)%): -$@montoDescuento.ToString("N0")</strong>
+                </li>
+            }
+        </ul>
+
+    <h4>Total a pagar: <strong style="color: green;">$@total.ToString("N0")</strong></h4>
+        <div>
+            <h4>por backend</h4>
+            <p>Subtotal: $@Model.Subtotal.ToString("N0")</p>
+            <p>Descuento: @Model.TextoDescuento</p>
+            <h4>Total a pagar: $@Model.TotalFinal.ToString("N0")</h4>
+        </div>
+
+        <button type="submit" class="btn btn-success mt-4">Pagar</button>
+    </form>
+}
+
+@section Scripts {
+    <script>
+        const tarjetaInfo = document.getElementById("tarjetaInfo");
+        const paypalInfo = document.getElementById("paypalInfo");
+        const metodoPaypal = document.getElementById("paypal");
+        const metodoTarjeta = document.getElementById("tarjeta");
+
+        function toggleMetodosPago() {
+            if (metodoPaypal.checked) {
+                tarjetaInfo.style.display = "none";
+                paypalInfo.style.display = "block";
+            } else {
+                tarjetaInfo.style.display = "block";
+                paypalInfo.style.display = "none";
+            }
+        }
+
+        metodoPaypal.addEventListener("change", toggleMetodosPago);
+        metodoTarjeta.addEventListener("change", toggleMetodosPago);
+        window.addEventListener("DOMContentLoaded", toggleMetodosPago);
+
+        // Lógica para el seatmap
+        const pasajeros = @Html.Raw(Json.Serialize(Model.Pasajeros.Select(p => p.Nombre).ToList()));
+        let currentPasajero = 0;
+
+        // Mostrar mensaje inicial para el primer pasajero al cargar
+        if (pasajeros.length > 0) {
+            // Un pequeño delay para que el alert no se superponga con la carga inicial de la página
+            setTimeout(() => {
+                alert("Selecciona asiento para: " + pasajeros[currentPasajero]);
+            }, 100);
+        }
+
+        document.querySelectorAll('.seat-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const seat = btn.dataset.seat;
+
+                // Evita seleccionar un asiento ya usado (btn-secondary)
+                if (btn.classList.contains('btn-secondary')) {
+                    alert("Este asiento ya está ocupado. Por favor, selecciona otro.");
+                    return;
+                }
+
+                // Asegúrate de que haya un pasajero actual para asignar
+                if (currentPasajero >= pasajeros.length) {
+                    alert("Todos los pasajeros ya tienen un asiento asignado.");
+                    return;
+                }
+
+                // --- Lógica para desmarcar el asiento previamente seleccionado por CUALQUIER pasajero ---
+                // Aquí, si un asiento ya estaba marcado como 'btn-primary' (seleccionado),
+                // lo devolvemos a 'btn-success' (disponible) si no está 'btn-secondary' (ocupado).
+                document.querySelectorAll('.seat-btn.btn-primary').forEach(b => {
+                    b.classList.remove('btn-primary');
+                    if (!b.classList.contains('btn-secondary')) {
+                        b.classList.add('btn-success');
+                    }
+                });
+
+                // Marcar el asiento actualmente clickeado como 'btn-primary'
+                btn.classList.remove('btn-success'); // Quita verde
+                btn.classList.add('btn-primary');    // Pone azul (seleccionado)
+
+                // Asignar el asiento al input oculto del pasajero actual
+                const inputAsiento = document.querySelector(`input[data-index="${currentPasajero}"]`);
+                if (inputAsiento) {
+                    inputAsiento.value = seat;
+                }
+
+                // Actualizar el texto visible del span "Asiento no asignado"
+                const spanAsiento = document.getElementById(`asiento-pasajero-${currentPasajero}`);
+                if (spanAsiento) {
+                    spanAsiento.innerText = "Asiento: " + seat;
+                    spanAsiento.classList.remove('text-info'); // Quita el color azul claro
+                    spanAsiento.classList.add('text-success'); // Pone un color verde para indicar asignado
+                }
+
+                // --- NUEVO CÓDIGO PARA ACTUALIZAR LA TABLA DE RESUMEN EN TIEMPO REAL ---
+                const tablaResumenPasajeros = document.querySelector('.table.table-bordered tbody');
+                if (tablaResumenPasajeros) {
+                    // Selecciona la fila (<tr>) del pasajero actual.
+                    // currentPasajero es 0-basado, pero nth-child es 1-basado.
+                    const filaPasajero = tablaResumenPasajeros.children[currentPasajero];
+                    if (filaPasajero) {
+                        // La celda del asiento es la segunda celda en la fila (índice 1)
+                        const celdaAsiento = filaPasajero.children[1];
+                        if (celdaAsiento) {
+                            celdaAsiento.innerText = seat; // Actualiza el texto de la celda con el asiento
+                        }
+                    }
+                }
+
+                // Avanza automáticamente
+                if (currentPasajero < pasajeros.length - 1) {
+                    currentPasajero++;
+                    alert("Selecciona asiento para: " + pasajeros[currentPasajero]);
+                } else {
+                    alert("Todos los pasajeros tienen asiento asignado.");
+                }
+            });
+        });
+    </script>
+    </script>
+}

@@ -1,0 +1,21 @@
+﻿@model AerolineaMVC.Models.ViewModels.ReservaViewModel
+
+@{
+    ViewData["Title"] = "Pago Exitoso";
+}
+
+<h2>¡Pago realizado con éxito!</h2>
+
+<p>Gracias por su compra, @Model.NombreCliente.</p>
+<p>Vuelo: @Model.Vuelo.Origen → @Model.Vuelo.Destino</p>
+<p>Fecha: @Model.Vuelo.Fecha.ToShortDateString()</p>
+<p>Cantidad de pasajeros: @Model.Pasajeros.Count</p>
+<p>Total pagado: $@(Model.Tarifa.Precio * Model.Pasajeros.Count)</p>
+
+@if (ViewBag.QrCodeImage != null)
+{
+    <h4>Código QR de confirmación:</h4>
+    <img src="@ViewBag.QrCodeImage" alt="Código QR de reserva" />
+}
+
+<a asp-action="VuelosDisponibles" class="btn btn-primary mt-3">Volver a vuelos</a>

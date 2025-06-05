@@ -1,0 +1,31 @@
+﻿@model AerolineaMVC.Models.ViewModels.ReservaViewModel
+
+@{
+    ViewData["Title"] = "Confirmación de Reserva";
+}
+
+<h2>¡Reserva Confirmada!</h2>
+
+<p><strong>Cliente:</strong> @Model.NombreCliente</p>
+<p><strong>Correo:</strong> @Model.CorreoCliente</p>
+<p><strong>Total Pagado:</strong> $@Model.CalcularTotal().ToString("F2")</p>
+
+<h3>Código QR de Confirmación</h3>
+@if (!string.IsNullOrEmpty(Model.QrCodeBase64))
+{
+    <img src="data:image/png;base64,@Model.QrCodeBase64" alt="QR Code" />
+}
+
+<h4>Pasajeros:</h4>
+<ul>
+    @foreach (var pasajero in Model.Pasajeros)
+    {
+        <li>
+            <strong>@pasajero.Nombre</strong> |
+            Maleta: @(pasajero.Maleta ? "Sí" : "No"),
+            Comida: @(pasajero.Comida ? "Sí" : "No"),
+            Mascota: @(pasajero.Mascota ? "Sí" : "No"),
+            Asiento: @pasajero.Asiento
+        </li>
+    }
+</ul>

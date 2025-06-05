@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\AerolineaMVC.csproj": {}
+    "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\AerolineaMVC.csproj": {}
   },
   "projects": {
-    "D:\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\AerolineaMVC.csproj": {
+    "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\AerolineaMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\AerolineaMVC.csproj",
+        "projectUniqueName": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\AerolineaMVC.csproj",
         "projectName": "AerolineaMVC",
-        "projectPath": "D:\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\AerolineaMVC.csproj",
+        "projectPath": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\AerolineaMVC.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\obj\\",
+        "outputPath": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,6 +55,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             }
           },
           "imports": [

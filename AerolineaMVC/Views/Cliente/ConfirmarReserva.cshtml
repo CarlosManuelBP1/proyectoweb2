@@ -89,15 +89,15 @@
                             <h6>Servicios Extra</h6>
                              <div class="form-check">
                             <input class="form-check-input" type="checkbox" name="Pasajeros[${index}].Maleta" value="true" />
-                            <label class="form-check-label">Maleta</label>
+                            <label class="form-check-label">Maleta (+150000)</label>
                             </div>
                             <div class="form-check">
                             <input class="form-check-input" type="checkbox" name="Pasajeros[${index}].Comida" value="true" />
-                            <label class="form-check-label">Comida</label>
+                            <label class="form-check-label">Comida (+100000)</label>
                             </div>
                             <div class="form-check">
                             <input class="form-check-input" type="checkbox" name="Pasajeros[${index}].Mascota" value="true" />
-                            <label class="form-check-label">Mascota</label>
+                            <label class="form-check-label">Mascota (+200000)</label>
                             </div>
 
                         </div>
@@ -108,7 +108,7 @@
         }
 
       
-        // Opcional: agrega 1 pasajero al cargar la vista
+        // agrega 1 pasajero al cargar la vista
         window.onload = function () {
             agregarPasajero();
         };

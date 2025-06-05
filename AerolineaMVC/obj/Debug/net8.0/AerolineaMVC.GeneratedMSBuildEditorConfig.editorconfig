@@ -26,8 +26,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\proyecto git aerolinea\AerolineaMVC\AerolineaMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/proyecto git aerolinea/AerolineaMVC/AerolineaMVC/Views/Cliente/Confirmacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDb25maXJtYWNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/proyecto git aerolinea/AerolineaMVC/AerolineaMVC/Views/Cliente/ConfirmarReserva.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDb25maXJtYXJSZXNlcnZhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyecto git aerolinea/AerolineaMVC/AerolineaMVC/Views/Cliente/MostrarQR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxNb3N0cmFyUVIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyecto git aerolinea/AerolineaMVC/AerolineaMVC/Views/Cliente/PagoExitoso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxQYWdvRXhpdG9zby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/proyecto git aerolinea/AerolineaMVC/AerolineaMVC/Views/Cliente/PasarelaPago.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxQYXNhcmVsYVBhZ28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/proyecto git aerolinea/AerolineaMVC/AerolineaMVC/Views/Cliente/SeleccionarTarifa.cshtml]

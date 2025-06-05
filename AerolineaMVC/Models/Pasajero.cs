@@ -35,9 +35,7 @@
 
         public int ReservaId { get; set; }
         public Reserva Reserva { get; set; }
-
-
-      
+        public string? Asiento { get; internal set; }
     }
 
 }

@@ -6,17 +6,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AerolineaContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AerolineaDB")));
 
-
-// Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSession(); // <-- Añadir esto
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage(); // <-- Corregido aquí
+}
+else
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -25,6 +26,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseSession(); // <-- Añadir esto antes de Authorization
 app.UseAuthorization();
 
 app.MapControllerRoute(

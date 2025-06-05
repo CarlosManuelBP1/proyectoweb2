@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\proyecto git aerolinea\\AerolineaMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\pasarelapago.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\pasarelapago.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +15,100 @@
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\reservaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\pagoexitoso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\pagoexitoso.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\seleccionartarifa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\seleccionartarifa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\mostrarqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\mostrarqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\confirmarreserva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\confirmarreserva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\pasajeroviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\pasajeroviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\confirmacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\confirmacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\viewmodels\\reservaconpasajeroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\viewmodels\\reservaconpasajeroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\reservatempmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\reservatempmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\controllers\\pasajeroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\controllers\\pasajeroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\pasajeroviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\pasajeroviewmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\pagoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\pagoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\pasajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\pasajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\tarifa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\tarifa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\vuelosdisponibles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\vuelosdisponibles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\vertarifas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\vertarifas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\controllers\\tarifascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\controllers\\tarifascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\controllers\\pasajeroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\controllers\\pasajeroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\pasajeros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -37,22 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\aerolineacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\aerolineacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\viewmodels\\reservaconpasajeroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\viewmodels\\reservaconpasajeroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\tarifa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\tarifa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\seleccionartarifa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\seleccionartarifa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\migrations\\20250512223429_agregarcamposcontactoemergencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,14 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\pasajeros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\pasajeros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\vertarifas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\vertarifas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\cliente\\vuelosdisponibles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\cliente\\vuelosdisponibles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\tarifas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -107,24 +163,8 @@
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\vuelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\controllers\\tarifascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\controllers\\tarifascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\migrations\\20250423173122_agregarclaseatarifa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -169,10 +209,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\vuelos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\views\\vuelos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\models\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\views\\vuelos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -257,6 +293,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\migrations\\20250514030609_agregarextrasareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\migrations\\20250514030609_agregarextrasareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\migrations\\20250604221300_permitirasientonulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\migrations\\20250604221300_permitirasientonulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|d:\\proyecto git aerolinea\\aerolineamvc\\aerolineamvc\\migrations\\20250604215445_agregarcampoasientoenpasajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15DE81F1-4FB8-46F0-8E5E-67B8D65F9980}|AerolineaMVC\\AerolineaMVC.csproj|solutionrelative:aerolineamvc\\migrations\\20250604215445_agregarcampoasientoenpasajero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -266,145 +310,233 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ConfirmarReserva.cshtml",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\ConfirmarReserva.cshtml",
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Cliente\\ConfirmarReserva.cshtml",
               "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\ConfirmarReserva.cshtml",
               "RelativeToolTip": "AerolineaMVC\\Views\\Cliente\\ConfirmarReserva.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAhAAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-12T20:53:48.838Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Reserva.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\Reserva.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Reserva.cs",
-              "RelativeToolTip": "AerolineaMVC\\Models\\Reserva.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T21:43:55.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Program.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Program.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Program.cs",
-              "RelativeToolTip": "AerolineaMVC\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:34:05.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AerolineaContext.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\AerolineaContext.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\AerolineaContext.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\AerolineaContext.cs",
-              "RelativeToolTip": "AerolineaMVC\\Models\\AerolineaContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:30:37.028Z"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PasajerosController.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\PasajerosController.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Controllers\\PasajerosController.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\PasajerosController.cs",
-              "RelativeToolTip": "AerolineaMVC\\Controllers\\PasajerosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T18:18:53.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\Index.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Pasajeros\\Index.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\Index.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Pasajeros\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAARAAAA",
+              "Title": "MostrarQR.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\MostrarQR.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Cliente\\MostrarQR.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\MostrarQR.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Cliente\\MostrarQR.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T18:21:21.055Z"
+              "WhenOpened": "2025-06-02T21:00:16.369Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PasajeroViewModel .cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\PasajeroViewModel .cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\PasajeroViewModel .cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\PasajeroViewModel .cs",
-              "RelativeToolTip": "AerolineaMVC\\Models\\PasajeroViewModel .cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T02:10:08.748Z"
+              "Title": "PagoExitoso.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\PagoExitoso.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Cliente\\PagoExitoso.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\PagoExitoso.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Cliente\\PagoExitoso.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T20:31:42.912Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PasarelaPago.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\PasarelaPago.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Cliente\\PasarelaPago.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\PasarelaPago.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Cliente\\PasarelaPago.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T20:31:15.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeleccionarTarifa.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\SeleccionarTarifa.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Cliente\\SeleccionarTarifa.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\SeleccionarTarifa.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Cliente\\SeleccionarTarifa.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T21:22:18.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Controllers\\ClienteController.cs",
               "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "AerolineaMVC\\Controllers\\ClienteController.cs",
-              "ViewState": "AQIAANAAAAAAAAAAAAAtwOMAAAAuAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAswHcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T16:32:43.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ReservaViewModel.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\ReservaViewModel.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Models\\ReservaViewModel.cs",
               "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\ReservaViewModel.cs",
               "RelativeToolTip": "AerolineaMVC\\Models\\ReservaViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAhAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAA1wBwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T20:51:41.705Z"
+              "WhenOpened": "2025-05-12T20:51:41.705Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
+              "Title": "Confirmacion.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\Confirmacion.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Cliente\\Confirmacion.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\Confirmacion.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Cliente\\Confirmacion.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T21:18:06.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ReservaConPasajeroViewModel.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\ViewModels\\ReservaConPasajeroViewModel.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\ViewModels\\ReservaConPasajeroViewModel.cs",
               "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\ViewModels\\ReservaConPasajeroViewModel.cs",
               "RelativeToolTip": "AerolineaMVC\\ViewModels\\ReservaConPasajeroViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswAwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T20:42:05.609Z"
+              "WhenOpened": "2025-05-12T20:42:05.609Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "Vuelo.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Vuelo.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\Vuelo.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Vuelo.cs",
+              "RelativeToolTip": "AerolineaMVC\\Models\\Vuelo.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:22:19.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservaTempModel.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\ReservaTempModel.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\ReservaTempModel.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\ReservaTempModel.cs",
+              "RelativeToolTip": "AerolineaMVC\\Models\\ReservaTempModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T20:07:07.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Reserva.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\Reserva.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Reserva.cs",
+              "RelativeToolTip": "AerolineaMVC\\Models\\Reserva.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T21:43:55.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PasajeroViewModel .cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\PasajeroViewModel .cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\PasajeroViewModel .cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\PasajeroViewModel .cs",
+              "RelativeToolTip": "AerolineaMVC\\Models\\PasajeroViewModel .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T02:10:08.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PagoViewModel.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\PagoViewModel.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\PagoViewModel.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\PagoViewModel.cs",
+              "RelativeToolTip": "AerolineaMVC\\Models\\PagoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:42:31.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Ciudad.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Ciudad.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\Ciudad.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Ciudad.cs",
+              "RelativeToolTip": "AerolineaMVC\\Models\\Ciudad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:15:47.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AerolineaMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T05:16:12.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Pasajero.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Pasajero.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Models\\Pasajero.cs",
               "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Pasajero.cs",
               "RelativeToolTip": "AerolineaMVC\\Models\\Pasajero.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwA4AAAAtAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAYwCUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T18:16:25.829Z"
+              "WhenOpened": "2025-05-07T18:16:25.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Tarifa.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Tarifa.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Models\\Tarifa.cs",
@@ -412,103 +544,34 @@
               "RelativeToolTip": "AerolineaMVC\\Models\\Tarifa.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:26:03.12Z"
+              "WhenOpened": "2025-04-02T05:26:03.12Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "elimina.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\elimina.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Pasajeros\\elimina.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\elimina.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Pasajeros\\elimina.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T18:24:46.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "edita.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\edita.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Pasajeros\\edita.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\edita.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Pasajeros\\edita.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T18:24:26.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "20250514045502_AgregarExtrasPorPasajero.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514045502_AgregarExtrasPorPasajero.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250514045502_AgregarExtrasPorPasajero.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514045502_AgregarExtrasPorPasajero.cs",
-              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250514045502_AgregarExtrasPorPasajero.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 75,
+              "Title": "20250604221300_PermitirAsientoNulo.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250604221300_PermitirAsientoNulo.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250604221300_PermitirAsientoNulo.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250604221300_PermitirAsientoNulo.cs",
+              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250604221300_PermitirAsientoNulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:55:02.762Z"
+              "WhenOpened": "2025-06-04T22:13:00.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "20250514053557_AddServiciosExtraPorPasajero.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514053557_AddServiciosExtraPorPasajero.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250514053557_AddServiciosExtraPorPasajero.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514053557_AddServiciosExtraPorPasajero.cs",
-              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250514053557_AddServiciosExtraPorPasajero.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 76,
+              "Title": "20250604215445_AgregarCampoAsientoEnPasajero.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250604215445_AgregarCampoAsientoEnPasajero.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250604215445_AgregarCampoAsientoEnPasajero.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250604215445_AgregarCampoAsientoEnPasajero.cs",
+              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250604215445_AgregarCampoAsientoEnPasajero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:35:57.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\Create.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Pasajeros\\Create.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\Create.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Pasajeros\\Create.cshtml",
-              "ViewState": "AQIAABMAAAAAAAAAAAAkwCUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T18:20:15.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SeleccionarTarifa.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\SeleccionarTarifa.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Cliente\\SeleccionarTarifa.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\SeleccionarTarifa.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Cliente\\SeleccionarTarifa.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAowAwAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T21:22:18.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "20250514030609_AgregarExtrasAReserva.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514030609_AgregarExtrasAReserva.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250514030609_AgregarExtrasAReserva.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514030609_AgregarExtrasAReserva.cs",
-              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250514030609_AgregarExtrasAReserva.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T03:06:09.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "VerTarifas.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\VerTarifas.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Cliente\\VerTarifas.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\VerTarifas.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Cliente\\VerTarifas.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAIBJwA4AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T18:28:27.524Z"
+              "WhenOpened": "2025-06-04T21:54:45.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -518,109 +581,79 @@
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Cliente\\VuelosDisponibles.cshtml",
               "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\VuelosDisponibles.cshtml",
               "RelativeToolTip": "AerolineaMVC\\Views\\Cliente\\VuelosDisponibles.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAIBJwDMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T16:36:47.736Z"
+              "WhenOpened": "2025-04-23T16:36:47.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Create.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\Create.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Create.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\Create.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAIBJwBsAAABTAAAA",
+              "Title": "VerTarifas.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\VerTarifas.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Cliente\\VerTarifas.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Cliente\\VerTarifas.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Cliente\\VerTarifas.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwA4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T08:40:36.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20250512223429_AgregarCamposContactoEmergencia.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250512223429_AgregarCamposContactoEmergencia.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250512223429_AgregarCamposContactoEmergencia.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250512223429_AgregarCamposContactoEmergencia.cs",
-              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250512223429_AgregarCamposContactoEmergencia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T22:34:29.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\Delete.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Delete.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T19:04:08.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Details.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\Details.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Details.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T08:41:38.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\Edit.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Edit.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\Edit.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAIBJwAAAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T08:41:05.543Z"
+              "WhenOpened": "2025-04-23T18:28:27.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Index.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\Index.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Index.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T08:32:37.026Z"
+              "Title": "TarifasController.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\TarifasController.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Controllers\\TarifasController.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\TarifasController.cs",
+              "RelativeToolTip": "AerolineaMVC\\Controllers\\TarifasController.cs",
+              "ViewState": "AQIAALsAAAAAAAAAAAAmwM0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T06:33:19.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Program.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Program.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Program.cs",
+              "RelativeToolTip": "AerolineaMVC\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:34:05.074Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "ListarPorVuelo.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\ListarPorVuelo.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\ListarPorVuelo.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\ListarPorVuelo.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\ListarPorVuelo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAALAAAA",
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAACbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T16:38:28.258Z"
+              "WhenOpened": "2025-04-23T22:12:06.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "20250507183303_AgregarTablaPasajeros.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250507183303_AgregarTablaPasajeros.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250507183303_AgregarTablaPasajeros.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250507183303_AgregarTablaPasajeros.cs",
-              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250507183303_AgregarTablaPasajeros.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T18:33:03.199Z"
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AerolineaMVC\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T08:34:39.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\appsettings.json",
               "RelativeDocumentMoniker": "AerolineaMVC\\appsettings.json",
@@ -628,11 +661,246 @@
               "RelativeToolTip": "AerolineaMVC\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T05:18:20.887Z"
+              "WhenOpened": "2025-04-02T05:18:20.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AerolineaContext.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\AerolineaContext.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\AerolineaContext.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\AerolineaContext.cs",
+              "RelativeToolTip": "AerolineaMVC\\Models\\AerolineaContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T05:30:37.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PagosController.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\PagosController.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Controllers\\PagosController.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\PagosController.cs",
+              "RelativeToolTip": "AerolineaMVC\\Controllers\\PagosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAACBjwBEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:43:24.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "PasajerosController.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\PasajerosController.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Controllers\\PasajerosController.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\PasajerosController.cs",
+              "RelativeToolTip": "AerolineaMVC\\Controllers\\PasajerosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T18:18:53.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\Index.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Pasajeros\\Index.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\Index.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Pasajeros\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T18:21:21.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "elimina.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\elimina.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Pasajeros\\elimina.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\elimina.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Pasajeros\\elimina.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T18:24:46.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "edita.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\edita.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Pasajeros\\edita.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\edita.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Pasajeros\\edita.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T18:24:26.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20250514045502_AgregarExtrasPorPasajero.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514045502_AgregarExtrasPorPasajero.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250514045502_AgregarExtrasPorPasajero.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514045502_AgregarExtrasPorPasajero.cs",
+              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250514045502_AgregarExtrasPorPasajero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T04:55:02.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20250514053557_AddServiciosExtraPorPasajero.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514053557_AddServiciosExtraPorPasajero.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250514053557_AddServiciosExtraPorPasajero.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514053557_AddServiciosExtraPorPasajero.cs",
+              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250514053557_AddServiciosExtraPorPasajero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:35:57.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\Create.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Pasajeros\\Create.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Pasajeros\\Create.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Pasajeros\\Create.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwCUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T18:20:15.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "20250514030609_AgregarExtrasAReserva.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514030609_AgregarExtrasAReserva.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250514030609_AgregarExtrasAReserva.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250514030609_AgregarExtrasAReserva.cs",
+              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250514030609_AgregarExtrasAReserva.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T03:06:09.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Create.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\Create.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Create.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAOBvwBsAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:40:36.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250512223429_AgregarCamposContactoEmergencia.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250512223429_AgregarCamposContactoEmergencia.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250512223429_AgregarCamposContactoEmergencia.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250512223429_AgregarCamposContactoEmergencia.cs",
+              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250512223429_AgregarCamposContactoEmergencia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T22:34:29.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\Delete.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Delete.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T19:04:08.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Details.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\Details.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Details.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:41:38.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\Edit.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Edit.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAOBvwAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:41:05.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Index.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\Index.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\Index.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T08:32:37.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ListarPorVuelo.cshtml",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\ListarPorVuelo.cshtml",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Tarifas\\ListarPorVuelo.cshtml",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Tarifas\\ListarPorVuelo.cshtml",
+              "RelativeToolTip": "AerolineaMVC\\Views\\Tarifas\\ListarPorVuelo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T16:38:28.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20250507183303_AgregarTablaPasajeros.cs",
+              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250507183303_AgregarTablaPasajeros.cs",
+              "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250507183303_AgregarTablaPasajeros.cs",
+              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250507183303_AgregarTablaPasajeros.cs",
+              "RelativeToolTip": "AerolineaMVC\\Migrations\\20250507183303_AgregarTablaPasajeros.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T18:33:03.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Home\\Index.cshtml",
@@ -640,11 +908,12 @@
               "RelativeToolTip": "AerolineaMVC\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T18:05:44.083Z"
+              "WhenOpened": "2025-04-23T18:05:44.083Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 40,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Shared\\_Layout.cshtml",
@@ -652,35 +921,12 @@
               "RelativeToolTip": "AerolineaMVC\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAgwBwAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T18:11:09.142Z"
+              "WhenOpened": "2025-04-23T18:11:09.142Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "AerolineaMVC\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T22:12:06.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Ciudad.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Ciudad.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\Ciudad.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Ciudad.cs",
-              "RelativeToolTip": "AerolineaMVC\\Models\\Ciudad.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T08:15:47.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 46,
               "Title": "20250402062107_Initial.Designer.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402062107_Initial.Designer.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250402062107_Initial.Designer.cs",
@@ -688,11 +934,12 @@
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250402062107_Initial.Designer.cs",
               "ViewState": "AQIAAD0AAAAAAAAAAAAiwFIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:09:19.604Z"
+              "WhenOpened": "2025-04-23T18:09:19.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 67,
               "Title": "20250423214635_AgregarReservas.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250423214635_AgregarReservas.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250423214635_AgregarReservas.cs",
@@ -700,11 +947,12 @@
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250423214635_AgregarReservas.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T21:46:36.116Z"
+              "WhenOpened": "2025-04-23T21:46:36.116Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 45,
               "Title": "20250402082616_AgregarRelacionTarifaVuelo.Designer.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402082616_AgregarRelacionTarifaVuelo.Designer.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250402082616_AgregarRelacionTarifaVuelo.Designer.cs",
@@ -712,23 +960,12 @@
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250402082616_AgregarRelacionTarifaVuelo.Designer.cs",
               "ViewState": "AQIAAD8AAAAAAAAAAAAiwFIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:09:32.071Z"
+              "WhenOpened": "2025-04-23T18:09:32.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Vuelo.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Vuelo.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Models\\Vuelo.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Models\\Vuelo.cs",
-              "RelativeToolTip": "AerolineaMVC\\Models\\Vuelo.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:22:19.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 44,
               "Title": "20250402191156_AgregarAsientosDisponiblesAVuelo.Designer.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402191156_AgregarAsientosDisponiblesAVuelo.Designer.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250402191156_AgregarAsientosDisponiblesAVuelo.Designer.cs",
@@ -736,11 +973,12 @@
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250402191156_AgregarAsientosDisponiblesAVuelo.Designer.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAAAiwFUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:10:09.358Z"
+              "WhenOpened": "2025-04-23T18:10:09.358Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 68,
               "Title": "20250423183842_AgregarCampoClaseATarifa.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250423183842_AgregarCampoClaseATarifa.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250423183842_AgregarCampoClaseATarifa.cs",
@@ -748,23 +986,12 @@
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250423183842_AgregarCampoClaseATarifa.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:38:43.084Z"
+              "WhenOpened": "2025-04-23T18:38:43.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "TarifasController.cs",
-              "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\TarifasController.cs",
-              "RelativeDocumentMoniker": "AerolineaMVC\\Controllers\\TarifasController.cs",
-              "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\TarifasController.cs",
-              "RelativeToolTip": "AerolineaMVC\\Controllers\\TarifasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T06:33:19.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 69,
               "Title": "20250423182656_AgregarRelacionTarifasAVuelo.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250423182656_AgregarRelacionTarifasAVuelo.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250423182656_AgregarRelacionTarifasAVuelo.cs",
@@ -772,11 +999,12 @@
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250423182656_AgregarRelacionTarifasAVuelo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:26:56.648Z"
+              "WhenOpened": "2025-04-23T18:26:56.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "20250402203341_AgregarCantidadYDisponibilidadAsientos.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402203341_AgregarCantidadYDisponibilidadAsientos.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250402203341_AgregarCantidadYDisponibilidadAsientos.cs",
@@ -784,11 +1012,12 @@
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250402203341_AgregarCantidadYDisponibilidadAsientos.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:10:24.56Z"
+              "WhenOpened": "2025-04-23T18:10:24.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 42,
               "Title": "20250402203341_AgregarCantidadYDisponibilidadAsientos.Designer.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402203341_AgregarCantidadYDisponibilidadAsientos.Designer.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250402203341_AgregarCantidadYDisponibilidadAsientos.Designer.cs",
@@ -796,11 +1025,12 @@
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250402203341_AgregarCantidadYDisponibilidadAsientos.Designer.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAiwFgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:10:35.544Z"
+              "WhenOpened": "2025-04-23T18:10:35.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 41,
               "Title": "20250423173122_AgregarClaseATarifa.Designer.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250423173122_AgregarClaseATarifa.Designer.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250423173122_AgregarClaseATarifa.Designer.cs",
@@ -808,11 +1038,12 @@
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250423173122_AgregarClaseATarifa.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAABBwAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T18:10:47.208Z"
+              "WhenOpened": "2025-04-23T18:10:47.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 51,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Vuelos\\Details.cshtml",
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Vuelos\\Details.cshtml",
@@ -820,11 +1051,12 @@
               "RelativeToolTip": "AerolineaMVC\\Views\\Vuelos\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T07:06:04.494Z"
+              "WhenOpened": "2025-04-02T07:06:04.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 50,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Vuelos\\Delete.cshtml",
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Vuelos\\Delete.cshtml",
@@ -832,47 +1064,51 @@
               "RelativeToolTip": "AerolineaMVC\\Views\\Vuelos\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T07:09:44.396Z"
+              "WhenOpened": "2025-04-02T07:09:44.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 49,
               "Title": "20250402062107_Initial.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402062107_Initial.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250402062107_Initial.cs",
               "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402062107_Initial.cs",
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250402062107_Initial.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAIBJwAUAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAEBVwAUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T06:21:07.717Z"
+              "WhenOpened": "2025-04-02T06:21:07.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 48,
               "Title": "20250402191156_AgregarAsientosDisponiblesAVuelo.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402191156_AgregarAsientosDisponiblesAVuelo.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250402191156_AgregarAsientosDisponiblesAVuelo.cs",
               "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402191156_AgregarAsientosDisponiblesAVuelo.cs",
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250402191156_AgregarAsientosDisponiblesAVuelo.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAIBJwAQAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAABRwAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T19:11:57.027Z"
+              "WhenOpened": "2025-04-02T19:11:57.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 47,
               "Title": "20250402082616_AgregarRelacionTarifaVuelo.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402082616_AgregarRelacionTarifaVuelo.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250402082616_AgregarRelacionTarifaVuelo.cs",
               "ToolTip": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402082616_AgregarRelacionTarifaVuelo.cs",
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250402082616_AgregarRelacionTarifaVuelo.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAIBJwAQAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAABRwAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T08:26:16.241Z"
+              "WhenOpened": "2025-04-02T08:26:16.241Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 52,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Vuelos\\Create.cshtml",
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Vuelos\\Create.cshtml",
@@ -880,11 +1116,12 @@
               "RelativeToolTip": "AerolineaMVC\\Views\\Vuelos\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T07:08:36.064Z"
+              "WhenOpened": "2025-04-02T07:08:36.064Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 53,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Vuelos\\Edit.cshtml",
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Vuelos\\Edit.cshtml",
@@ -892,11 +1129,12 @@
               "RelativeToolTip": "AerolineaMVC\\Views\\Vuelos\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T07:09:13.44Z"
+              "WhenOpened": "2025-04-02T07:09:13.44Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 54,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\Vuelos\\Index.cshtml",
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\Vuelos\\Index.cshtml",
@@ -904,11 +1142,12 @@
               "RelativeToolTip": "AerolineaMVC\\Views\\Vuelos\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T06:56:08.092Z"
+              "WhenOpened": "2025-04-02T06:56:08.092Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 55,
               "Title": "VuelosController.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Controllers\\VuelosController.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Controllers\\VuelosController.cs",
@@ -916,11 +1155,12 @@
               "RelativeToolTip": "AerolineaMVC\\Controllers\\VuelosController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T06:26:22.327Z"
+              "WhenOpened": "2025-04-02T06:26:22.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 70,
               "Title": "20250423173122_AgregarClaseATarifa.cs",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250423173122_AgregarClaseATarifa.cs",
               "RelativeDocumentMoniker": "AerolineaMVC\\Migrations\\20250423173122_AgregarClaseATarifa.cs",
@@ -928,11 +1168,12 @@
               "RelativeToolTip": "AerolineaMVC\\Migrations\\20250423173122_AgregarClaseATarifa.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T17:31:22.836Z"
+              "WhenOpened": "2025-04-23T17:31:22.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 56,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\_ViewImports.cshtml",
@@ -940,11 +1181,12 @@
               "RelativeToolTip": "AerolineaMVC\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T18:07:34.185Z"
+              "WhenOpened": "2025-04-23T18:07:34.185Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 57,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "AerolineaMVC\\Views\\_ViewStart.cshtml",
@@ -952,11 +1194,12 @@
               "RelativeToolTip": "AerolineaMVC\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T18:07:34.538Z"
+              "WhenOpened": "2025-04-23T18:07:34.538Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Program.cs",
@@ -964,11 +1207,12 @@
               "RelativeToolTip": "..\\..\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T01:11:59.543Z"
+              "WhenOpened": "2025-04-03T01:11:59.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 61,
               "Title": "EjercicioMVC.csproj",
               "DocumentMoniker": "D:\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\EjercicioMVC.csproj",
               "RelativeDocumentMoniker": "..\\..\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\EjercicioMVC.csproj",
@@ -976,11 +1220,12 @@
               "RelativeToolTip": "..\\..\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\EjercicioMVC.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-03T01:12:01.205Z"
+              "WhenOpened": "2025-04-03T01:12:01.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 58,
               "Title": "StoreContext.cs",
               "DocumentMoniker": "D:\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Models\\StoreContext.cs",
               "RelativeDocumentMoniker": "..\\..\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Models\\StoreContext.cs",
@@ -988,11 +1233,12 @@
               "RelativeToolTip": "..\\..\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Models\\StoreContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T01:12:01.356Z"
+              "WhenOpened": "2025-04-03T01:12:01.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 60,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "D:\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "..\\..\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Controllers\\CategoriesController.cs",
@@ -1000,11 +1246,12 @@
               "RelativeToolTip": "..\\..\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T01:12:01.282Z"
+              "WhenOpened": "2025-04-03T01:12:01.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 59,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Models\\Category.cs",
               "RelativeDocumentMoniker": "..\\..\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Models\\Category.cs",
@@ -1012,11 +1259,12 @@
               "RelativeToolTip": "..\\..\\web2ricardo\\EjercicioMVC\\EjercicioMVC\\Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T01:12:01.317Z"
+              "WhenOpened": "2025-04-03T01:12:01.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "LICENSE.txt",
               "DocumentMoniker": "D:\\proyecto git aerolinea\\AerolineaMVC\\AerolineaMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
               "RelativeDocumentMoniker": "AerolineaMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
@@ -1024,11 +1272,12 @@
               "RelativeToolTip": "AerolineaMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-02T05:55:17.871Z"
+              "WhenOpened": "2025-04-02T05:55:17.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "20250402054939_Initial.cs",
               "DocumentMoniker": "D:\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402054939_Initial.cs",
               "RelativeDocumentMoniker": "..\\..\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402054939_Initial.cs",
@@ -1039,7 +1288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 65,
               "Title": "20250402054030_Initial.cs",
               "DocumentMoniker": "D:\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402054030_Initial.cs",
               "RelativeDocumentMoniker": "..\\..\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402054030_Initial.cs",
@@ -1050,7 +1299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 66,
               "Title": "20250402053517_Inicial.cs",
               "DocumentMoniker": "D:\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402053517_Inicial.cs",
               "RelativeDocumentMoniker": "..\\..\\web2ricardo\\AerolineaMVC\\AerolineaMVC\\Migrations\\20250402053517_Inicial.cs",

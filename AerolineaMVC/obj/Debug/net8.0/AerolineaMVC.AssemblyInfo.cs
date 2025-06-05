@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AerolineaMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be9c3f0aecaeb69ab8060857aaffebe9bf46c6e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+987a8a1b24392fcf17d6cf15d6363c5c58faaa3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AerolineaMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AerolineaMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Código QR de la Reserva";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (TempData["QrCodeBase64"] != null)
+{
+    <img src="@TempData["QrCodeBase64"]" alt="Código QR de reserva" />
+}
+else
+{
+    <p>No se pudo generar el código QR.</p>
+}
